@@ -1,0 +1,27 @@
+{
+  "name": "dinobot",
+  "version": "1.0.0",
+  "description": "discord bot that dispenses frame data knowledge along with Dinosaur phrases",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tekken-london/dinobot.git"
+  },
+  "keywords": [
+    "tekken",
+    "discord",
+    "bot"
+  ],
+  "author": "Haroun Butt <dekuharoun@gmail.com> (https://github.com/harounb/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tekken-london/dinobot/issues"
+  },
+  "homepage": "https://github.com/tekken-london/dinobot#readme",
+  "dependencies": {
+    "discord.js": "^9.3.0"
+  }
+}
