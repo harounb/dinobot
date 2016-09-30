@@ -5,7 +5,11 @@
   "main": "./lib/index.js",
   "scripts": {
     "test": "mocha ./lib/**.spec.js",
-    "start": "node ./lib/index.js"
+    "start": "node ./lib/index.js",
+    "start:dev": "nodemon ./lib/index.js",
+    "cover": "nyc npm test && nyc report --reporter=lcov",
+    "coveralls": "cat ./coverage/lcov.info | coveralls",
+    "lint": "eslint \"./lib/**\""
   },
   "repository": {
     "type": "git",
@@ -27,6 +31,12 @@
   },
   "devDependencies": {
     "chai": "^3.5.0",
-    "mocha": "^3.1.0"
+    "coveralls": "^2.11.14",
+    "eslint": "^3.7.0",
+    "eslint-config-airbnb-base": "^8.0.0",
+    "eslint-plugin-import": "^1.16.0",
+    "mocha": "^3.1.0",
+    "nodemon": "^1.10.2",
+    "nyc": "^8.3.0"
   }
 }
