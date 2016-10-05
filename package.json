@@ -28,6 +28,7 @@
   "homepage": "https://github.com/tekken-london/dinobot#readme",
   "dependencies": {
     "discord.js": "^9.3.0",
+    "glob": "^7.1.0",
     "lunr": "^0.7.1",
     "tekken-frame-data": "git+https://github.com/tekken-london/tekken-frame-data.git"
   },
@@ -38,6 +39,7 @@
     "eslint-config-airbnb-base": "^8.0.0",
     "eslint-plugin-import": "^1.16.0",
     "mocha": "^3.1.0",
+    "mock-fs": "^3.11.0",
     "nodemon": "^1.10.2",
     "nyc": "^8.3.0"
   }
